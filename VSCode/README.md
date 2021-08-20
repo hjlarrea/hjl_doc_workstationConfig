@@ -37,7 +37,7 @@ Register the following snippets for each of the listed languages:
 Apply these user settings:
  
  ```json
- {
+{
     "workbench.colorTheme": "Atom One Dark",
     "workbench.iconTheme": "material-icon-theme",
     "editor.minimap.enabled": false,
@@ -46,7 +46,7 @@ Apply these user settings:
     "editor.fontWeight": "500",
     "editor.matchBrackets": true,
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
-    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontFamily": "MesloLGS NF Light",
     "terminal.integrated.fontWeightBold": "500",
     "terminal.integrated.fontWeight": "300",
     "workbench.colorCustomizations": {
@@ -54,8 +54,9 @@ Apply these user settings:
             "statusBar.background": "#0861a1",
             "focusBorder": "#21252B"
         }
-    }
-}
+    },
+    "workbench.editor.untitled.hint": "hidden"
+ }
  ```
 
  ## Key Bindings
