@@ -127,7 +127,7 @@ Set ~/.gitconfig file with the following content:
 1. Install Meslo font for PowerLevel10k: https://github.com/romkatv/powerlevel10k/blob/master/font.md
 1. Set up of Oh My Zsh: `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 1. Install Powerlevel10k: `git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k`
-
+1. Install ZSH auto complete: `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
 Read more on: https://platzi.com/tutoriales/1748-terminal/8505-configurando-wsl2-windows-terminal-y-oh-my-zsh/
 
 - Add to .zshrc:
